@@ -1,80 +1,90 @@
 body {
-    background-image: url("");
-
-    font-family: 'Kanit';
+  background-image: url("");
+  font-family: 'Kanit';
 }
 
 .about {
-    font-size: 17px;
-    color: white;
-    background-color: rgb(0, 0, 0);
+  font-size: 17px;
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 .parallax1 {
-    /* The image used */
-    background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/45e32e8de4794ac284b7824e458b784d?quality=95&fake=.png");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/45e32e8de4794ac284b7824e458b784d?quality=95&fake=.png");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .parallax2 {
-    /* The image used */
-    background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/f4fc14786e3c49568817289d9479cb19?quality=95&fake=.png");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/f4fc14786e3c49568817289d9479cb19?quality=95&fake=.png");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .parallax3 {
-    /* The image used */
-    background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/adac4c41221f49c0989ba39a41ac9071?quality=95&fake=.png");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.parallax3 {
+  /* The image used */
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/adac4c41221f49c0989ba39a41ac9071?quality=95&fake=.png");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .parallax4 {
-    /* The image used */
-    background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/5758a9ebfdbb4c55af4b28b112b10ece?quality=95&fake=.png");
+.parallax4 {
+  /* The image used */
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/5758a9ebfdbb4c55af4b28b112b10ece?quality=95&fake=.png");
+  /* Set a specific height */
+  min-height: 845px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax5 {
+  /* The image used */
+  background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/e328b067d3a84a678c2afe6df4e44847?quality=95&fake=.png");
+  /* Set a specific height */
+  min-height: 845px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ div div div div  :hover {
   
-    /* Set a specific height */
-    min-height: 845px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+  background-color: rgba(255, 0, 0, 0.63);
+                
+}
+
+
+
 .textbox {
-    background-color: #000000;
+  background-color: #000000;
   border-radius: 15px;
   opacity: 0.8;
   width: 800.52px;
   height: 495.17px;
-
-  }
+}

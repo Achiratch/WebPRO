@@ -19,3 +19,7 @@ function relocate_profile() {
 function relocate_BMI() {
     location.href = "BMI.html"
 }
+
+function relocate_fitness() {
+    location.href = "fitness.html"
+}

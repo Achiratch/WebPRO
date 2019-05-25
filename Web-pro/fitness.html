@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ADDFIT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/design.css">
+    <script src="JS/link.js" defer></script>
+
+</head>
+
+<body>
+    <header class="dark sticky">
+        <section class="about" class="wrapper-top text-uppercase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a>เกี่ยวกับเรา</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-8 text-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a>ติดต่อภายในวันจันทร์ - เสาร์ 10:00 - 20:00 น. </a></li>
+                            <li class="list-inline-item"><a>สอบถามข้อมูลโทร 091-819XXXX, 084-768XXXX</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand">
+                    <img src="picture/logo1.png" width="100px" height="35px" alt="ADDFIT">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul id="menu-primary" class="navbar-nav ml-auto">
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
+                            id="menu-item-64"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64 nav-item"><a
+                                title="หน้าแรก" href="home.html" class="nav-link">หน้าแรก</a></li>
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
+                            id="menu-item-64"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64 nav-item"><a
+                                title="ดัชนีมวลกาย" href="BMI.html" class="nav-link">ดัชนีมวลกาย</a></li>
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
+                            id="menu-item-390"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390 nav-item"><a
+                                title="ฟิตเนส" href="fitness.html" class="nav-link">ฟิตเนส</a></li>
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
+                            id="menu-item-390"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390 nav-item"><a
+                                title="ฟิตเนส" href="" class="nav-link">ตารางการออกกำลังกาย</a></li>
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
+                            id="menu-item-390"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390 nav-item ml-3">
+                            <span onclick=" relocate_profile()">
+                                <img width="35px" height="35px"
+                                    src="https://marvel-live.freetls.fastly.net/canvas/2019/3/50a3ff45d2e84675856184b26b09dcc8?quality=95&fake=.png"
+                                    alt="account">
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="parallax5" style="text-align: center; color: aliceblue  ">
+        <h1 style="background-color: rgba(0, 0, 0, 0.9);
+        width: 814px max-content;
+        height: 155px max-content; ">เเนะนำท่าการออกกำลังกายในเเต่ละส่วน</h1>
+        <h2 style="background-color: rgba(0, 0, 0, 0.63);
+        width: 814px max-content;
+        height: 155px max-content; ">
+            Best Exercises For Upper Body
+        </h2>
+        <div class="container" style=" font-size: 25px ">
+
+            <div class="row" style="padding-bottom: 70px;">
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                width: 453px;
+                height: 180px;">
+                    Shoulder Muscles
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Front-Dumbbell-Raise.png';"
+                        class="text-decoration-none" style="font-size: 18px ;text-align: left">
+                        Exercise 1: Dumbbell Front Raises.
+
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Military-Press.png';"
+                        class="text-decoration-none" style="font-size: 18px ;text-align: left">
+                        Exercise 2: Military Press.
+                    </ul>
+                </div>
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                width: 453px;
+                height: 180px;">
+                    Chest Muscles
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Barbell-Bench-Press.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Barbell Bench Press.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Flat-Bench-Dumbbell-Fly.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Flat Bench Dumbbell Fly.
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Decline-Push-Up.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 3: Decline Push-Up.
+                    </ul>
+                </div>
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                width: 453px;
+                height: 180px;
+                ;">
+                    Biceps
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Concentration-Curls.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Concentration Curls.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Barbell-Curls.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Barbell Curls.
+
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Chin-Ups.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 3: Chin Ups.
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <div class="row" style="padding-bottom: 70px;">
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                    Triceps
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Triceps-Dips.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Triceps Dips.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Skull-Crushers.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Skull Crushers.
+
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Overhead-Dumbbell-Extension.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 3: Overhead Dumbbell Extension.
+                    </ul>
+                </div>
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                    Forearms
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Farmers-Walk.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Farmer’s Walk.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Towel-Pull-Up.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Towel Pull Up.
+
+
+                    </ul>
+
+                </div>
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                    Upper And Lower Abs
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/abs-plank-knee-to-elbow.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Spiderman Plank Crunch.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/abs-mountain-climbers.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Mountain Climbers.
+
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/abs-medicine-ball-v-up.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 3: Medicine Ball V-Up.
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row" style="padding-bottom: 70px;">
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                        width: 453px;
+                        height: 180px;">
+                    Side Abs
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/abs-russian-twist.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Russian Twists.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/abs-wood-chop.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Wood Chop.
+
+
+                    </ul>
+
+                </div>
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                        width: 453px;
+                        height: 180px;">
+                    Upper Back
+                    <ul onclick="location.href='https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjq7fWfy7biAhWGiXAKHeAvDYgQjRx6BAgBEAU&url=https%3A%2F%2Fworkoutlabs.com%2Fexercise-guide%2Fbarbell-shrugs%2F&psig=AOvVaw1eAqruri-B_q1D01MiTRW6&ust=1558870485412551';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Barbell Shrugs.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Bent-Over-Lateral-Raise.png';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Bent-Over Lateral Raises.
+
+                    </ul>
+
+                </div>
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                        width: 453px;
+                        height: 180px;">
+                    Middle Back
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Lat-Pull-Down.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Lat Pull-Downs.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Seated-Cable-Row.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Seated Cable Row.
+
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+            <div class="row" style="padding-bottom: 70px;">
+
+                <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                            width: 453px;
+                            height: 180px;">
+                    Lower Back
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Bird-Dog-Exercise.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 1: Bird Dog.
+
+                    </ul>
+                    <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Superman-Exercise.jpg';"
+                        style="font-size: 18px ;text-align: left">
+                        Exercise 2: Superman.
+
+                    </ul>
+                </div>
+
+            </div><br>
+            <h2 style="background-color: rgba(0, 0, 0, 0.63);
+        width: 814px max-content;
+        height: 155px max-content; ">
+                Best Exercises For Lower Body
+            </h2>
+            <div class="container" style=" font-size: 25px ">
+                <div class="row" style="padding-bottom: 70px;">
+                    <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                        Glutes
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Kettlebell-Swings.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 1: Kettlebell Swings.
+
+                        </ul>
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Weighted-Glute-Bridge.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 2: Weighted Glute Bridge.
+
+                        </ul>
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Stiff-Legged-Deadlift.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 3: Stiff-Legged Deadlift.
+                        </ul>
+
+                    </div>
+                    <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                        Quadriceps
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Barbell-Squat.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 1: Barbell Squat.
+
+                        </ul>
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Leg-Extentions.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 2: Leg Extension.
+
+
+                        </ul>
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Leg-Press.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 3: Leg Press.
+                        </ul>
+                    </div>
+                    <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                        Hamstring Muscles
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Lying-Leg-Curls.png';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 1: Lying Leg Curls.
+
+                        </ul>
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Romanian-Deadlift.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 2: Romanian Deadlift.
+
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                        Tibialis Anterior
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/TA-Raises.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 1: TA Raises.
+                        </ul>
+                    </div>
+                    <div class="col-sm" style="background-color: rgba(0, 0, 0, 0.63);
+                    width: 453px;
+                    height: 180px;">
+                        Calf
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Standing-Calf-Raise.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 1: Standing Calf Raises.
+                        </ul>
+                        <ul onclick="location.href='https://www.fitneass.com/wp-content/uploads/2015/10/Box-Jump.jpg';"
+                            style="font-size: 18px ;text-align: left">
+                            Exercise 2: Box Jump.
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
