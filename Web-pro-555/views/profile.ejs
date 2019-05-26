@@ -1,0 +1,60 @@
+<% include ./partials/header %>
+<div>
+
+    <h1 style="color: aliceblue ; text-align: center; margin-top:35px ;">
+        ข้อมูลส่วนตัว
+    </h1>
+    <br>
+    <br>
+    <br><br><br><br><br><br>
+</div>
+
+
+
+
+<form>
+    <div class="container">
+        <div class="form-row">
+
+            <div class="form-group col-md-6 ">
+                <label for="outputFirstName">ชื่อ</label>
+                <output style="background-color: gray" type="text" class="form-control" id="outputFirstName"
+                    placeholder="ชื่อ">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="outputLastName">นามสกุล</label>
+                <output style="background-color: gray" type="text" class="form-control" id="outputLastName"
+                    placeholder="นามสกุล">
+            </div>
+
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputSex">เพศ</label>
+                <output style="background-color: gray" type="text" class="form-control" id="outputSex"
+                    placeholder="เพศ">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="outputPhoneNumber">เบอร์โทรศัพท์</label>
+                <output style="background-color: gray" type="number" class="form-control" id="outputPhoneNumber"
+                    placeholder="เบอร์โทรศัพท์">
+            </div>
+
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="outputHeight">ส่วนสูง</label>
+                <output style="background-color: gray" type="number" class="form-control" id="outputHeight"
+                    placeholder="ส่วนสูง">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="outputWeight">นํ้าหนัก</label>
+                <output style="background-color: gray" type="number" class="form-control" id="outputWeight"
+                    placeholder="เบอร์โทรศัพท์">
+            </div>
+        </div>
+    </div>
+
+</form>
+<% include ./partials/footer %>

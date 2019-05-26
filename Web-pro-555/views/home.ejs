@@ -1,0 +1,72 @@
+<% include ./partials/header %>
+
+
+
+    <div class="parallax2"></div>
+    <div class="mx-auto text-center"
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <h1 style="text-align:center; color: lightskyblue"><strong>ดัชนีมวลกาย</strong></h1>
+        <p style="text-align:center;">ค่า BMI คือค่าดัชนีที่ใช้ชี้วัดความสมดุลของน้ำหนักตัว และส่วนสูง
+            ซึ่งสามารถระบุได้ว่า ตอนนี้รูปร่างของคนคนนั้นอยู่ในระดับใด ตั้งแต่อ้วนมากไปจนถึงผอมเกินไป
+        </p>
+        <button onclick=" relocate_BMI()" type="button" style="width: 400px; text-align: auto;" class="btn btn-info">คำนวณตอนนี้</button>
+
+        <!-- <div class="ui main text container">
+                <div class="ui huge header">RESTful Blog App</div>
+                    <div class="ui top  attached segment">
+                        <div class="ui divided items">
+                            
+                                <div class="item">
+                                    <div class="image">
+                                            <img src="/public/picture/p1.png" >
+                                        </div>
+                                    <% blogs.forEach(function(blog){ %>
+                                        <div class="content">
+                                             <a class="header" href="/blogs/<%= blog._id %>"><%=blog.title%></a>
+                                             <div class="meta">
+                                                 <span><%= blog.created.toDateString() %></span>
+                                             </div>
+                                             <div class="description">
+                                                 <p><%- blog.body.substring(0, 100) %>...</p>
+                                             </div>
+                                             <div class="extra">
+                                                 <a class="ui floated basic violet button" href="/blogs/<%= blog._id %>">
+                                                     Read More
+                                                     <i class="right chevron icon"></i>
+                                                 </a>
+                                             </div>
+                                        </div>
+                                    </div>
+                                <% }) %>
+                        </div>
+                    </div>
+            </div> -->
+
+    </div>
+
+
+
+    <div class="parallax3"></div>
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <h1 style="text-align:center; color: lightgreen"><strong>ควรออกกำลังกายหนักแค่ไหน ?
+            </strong> </h1>
+        <p style="text-align:center;">ในการออกกำลังกายแต่ละครั้ง ถ้าจะให้ได้ประโยชน์ต่อหัวใจ
+            และปอดจะต้องออกกำลังกายให้หัวใจ (หรือชีพจร) เต้นระหว่าง 60-80% ของความสามารถสูงสุดที่หัวใจของคน ๆ
+            นั้นจะเต้นได้
+
+            สูตร ความสามารถสูงสุดที่หัวใจจะเต้นได้ = 220 - อายุเป็นปี
+
+            ตัวอย่าง คนที่มีอายุ 50 ปี มีความสามารถสูงสุดที่หัวใจจะเต้นได้คือ 220-50 = 170 ครั้งต่อนาที
+
+            ดังนั้นสำหรับคนที่มีอายุ 50 ปี ควรออกกำลังเพื่อให้ชีพจรเต้นเพียงระหว่าง 60-80% ของ 170 ครั้งต่อนาที กล่าวคือ
+            ระหว่าง 10-2136 ครั้งต่อนาที
+
+            แต่ถ้าไม่เคยออกกำลังกายมาก่อน ต้องค่อย ๆ ทำ อาจใช้เวลา 2-3 เดือน ก่อนทีจะออกกำลังกายให้ชีพจรเต้นได้ถึง 60%
+            ของความสามารถสูงสุดที่หัวใจจะเต้นได้ แต่ในทางปฏิบัติการวัดชีจรในขณะที่ออกกำลังกาย
+            ถ้าไม่มีเครื่องมือช่วยวัดจะทำได้โดยยากสำหรับประชาชนทั่วไป ฉะนั้นจึงไม่จำเป็นต้องวัดชีพจร
+            แต่ออกกำลังกายให้รู้สึกว่าเหนื่อยนิดหน่อย พอมีเหงื่อออก หรือยังสามารถพูดคุยระหว่างการออกกำลังกายได้
+            ถ้าอยากวัดจริง ๆ อาจใช้วิธีถีบจักรยานอยู่กับที่เพราะจักรยานส่วนใหญ่จะมีที่วัดชีพจร
+        </p>
+    </div>
+
+<% include ./partials/footer %>

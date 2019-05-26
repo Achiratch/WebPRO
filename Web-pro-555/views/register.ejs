@@ -1,0 +1,57 @@
+<% include ./partials/header %>
+<div class="container">
+
+    <br>
+    <br>
+    <form>
+        <h1 style="text-align: center;">สมัครสมาชิก</h1>
+
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="inputIDName">ไอดี</label>
+                    <input type="text" class="form-control" id="inputIDName" placeholder="">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputPassword">รหัสผ่าน</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="">
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="confirmPassword">ยืนยันรหัสผ่าน</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="">
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="inputPhoneNumber">เบอร์โทรศัพท์</label>
+                    <input type="number" class="form-control" id="inputPhoneNumber" placeholder="">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="inputHeight">ส่วนสูง</label>
+                    <input type="number" class="form-control" id="inputHeight" placeholder="ส่วนสูง (CM.)">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputWeight">นํ้าหนัก</label>
+                    <input type="number" class="form-control" id="inputWeight" placeholder="นํ้าหนัก (KG.)">
+                </div>
+
+
+                <div class="form-group col-md-6">
+                    <label for="inpuSex">เพศ</label><br>
+                    <div class="custom-control custom-radio custom-control-inline">
+
+                        <input type="radio" id="RadioMale" name="Sex" class="custom-control-input">
+                        <label class="custom-control-label" for="RadioMale">ชาย</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="RadioFemale" name="Sex" class="custom-control-input">
+                        <label class="custom-control-label" for="RadioFemale">หญิง</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary" style="width: 100%">สมัคร</button>
+            </div>
+        </form>
+    </form>
+</div>
+
+<% include ./partials/footer %>
