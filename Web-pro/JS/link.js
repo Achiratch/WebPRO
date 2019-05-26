@@ -21,5 +21,5 @@ function relocate_BMI() {
 }
 
 function relocate_fitness() {
-    location.href = "fitness.html"
+    location.href = "fitness.html";target="_blank"
 }
