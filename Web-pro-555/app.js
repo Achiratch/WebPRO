@@ -25,16 +25,16 @@ let Blog = mongoose.model("Blog", blogSchema);
 // RESTFUL ROUTES
 
 app.get("/", function(req, res){
-   res.redirect("/blogs"); 
+   res.redirect("/home"); 
 });
 
 // INDEX ROUTE
-app.get("/blogs", function(req, res){
+app.get("/home", function(req, res){
    Blog.find({}, function(err, blogs){
        if(err){
            console.log("ERROR!");
        } else {
-          res.render("index", {blogs: blogs}); 
+          res.render("home", {blogs: blogs}); 
        }
    });
 });
@@ -42,6 +42,22 @@ app.get("/blogs", function(req, res){
 // NEW ROUTE
 app.get("/blogs/new", function(req, res){
     res.render("new");
+});
+
+app.get("/BMI", function(req, res){
+    res.render("BMI");
+});
+
+app.get("/fitness", function(req, res){
+    res.render("fitness");
+});
+
+app.get("/schedule", function(req, res){
+    res.render("schedule");
+});
+
+app.get("/profile", function(req, res){
+    res.render("profile");
 });
 
 // CREATE ROUTE
@@ -58,6 +74,21 @@ app.post("/blogs", function(req, res){
             res.redirect("/blogs");
         }
     });
+});
+
+app.post("/BMI", function(req, res){
+    // create blog
+    console.log(req.params.inputHeight);
+    console.log(req.params.inputWeight);
+    // console.log(req.body);
+    // Blog.create(req.body.blog, function(err, newBlog){
+    //     if(err){
+    //         res.render("new");
+    //     } else {
+    //         //then, redirect to the index
+    //         res.redirect("/blogs");
+    //     }
+    // });
 });
 
 // SHOW ROUTE
