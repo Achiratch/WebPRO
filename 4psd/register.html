@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registering</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <script src="" defer></script>
+  <style>
+    body {
+      font-family: 'Kanit';
+      color: white;
+      background-color: rgb(255, 99, 71);
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand">
+          <img src="" width="100px" height="35px" alt="Schedulalization">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul id="menu-primary" class="navbar-nav ml-auto">
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-64"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64 nav-item"><a
+                title="Schedulalization" href="AddSchedule.html" class="nav-link">Schedulalization</a></li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-64"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64 nav-item"><a
+                title="My Schedule" href="Myschedule.html" class="nav-link">My Schedule</a></li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-390"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390 nav-item"><a title="Course"
+                href="Course.html" class="nav-link">Course</a></li>
+
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-390"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390 nav-item ml-3">
+              <span onclick=" relocate_profile()">
+                <img width="35px" height="35px"
+                  src="https://marvel-live.freetls.fastly.net/canvas/2019/3/50a3ff45d2e84675856184b26b09dcc8?quality=95&fake=.png"
+                  alt="account">
+              </span>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav><br>
+  </header>
+  <h2>
+    <span onclick=" relocate_welcome()"><i class="fas fa-angle-left"></i> </span>
+  </h2><br>
+  <div class="container">
+
+
+    <form>
+      <h1 style="text-align: center;">Register</h1>
+
+      <form>
+        <div class="form-row">
+
+          <div class="form-group col-md-3">
+            <label for="inputFirstName">Firstname</label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="">
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="inpuLastName">Surname</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="inputStudentNumber">StudentID</label>
+            <input type="number" class="form-control" id="inputStudentNumber" placeholder="">
+          </div>
+
+
+          <div class="form-group col-md-3">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="@mail.com">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputPassword">ConfirmPassword</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="">
+          </div>
+
+          <div class="input-group col-md-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile04"
+                aria-describedby="inputGroupFileAddon04">
+              <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Upload</button>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFaculty">Faculty</label>
+            <select id="inputFaculty" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputDepartment">Department</label>
+            <select id="inputDepartment" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputMajor">Major</label>
+            <select id="inputMajor" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+
+
+
+
+
+        <button type="submit" class="btn btn-dark" style="width: 100%">Confirm</button>
+
+  </div>
+  </form>
+
+  </form>
+
+  </div>
+
+
+
+
+
+
+
+</body>
